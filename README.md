@@ -1,4 +1,4 @@
-# My Project Repository
+# ACL Training
 
 This repository contains three independent projects.
 
