@@ -1,0 +1,15 @@
+# Project 1 - Oil Spill Segmentation using OpenCV
+opencv-python==4.5.5.64
+Pillow==8.2.0
+numpy==1.21.0
+matplotlib==3.4.3
+
+# Project 2 - VGG Architecture for Image Classification
+torch==1.9.0
+torchvision==0.10.0
+
+# Project 3 - Fine-Tuning a T5 Model for Medical Summarization
+transformers==4.9.0
+
+# General Libraries
+scikit-learn==0.24.2
