@@ -1,4 +1,4 @@
-# Deep Learning Projects Repository
+# ACL Training Projects Repository
 
 This repository contains a collection of deep learning and computer vision projects organized into three main categories:
 
