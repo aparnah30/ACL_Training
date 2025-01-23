@@ -1,4 +1,4 @@
-# Multi-Project Python Code
+# OpenCV projects
 
 This repository contains three Python projects focused on different computer vision tasks: detecting dark patches in images for oil spill segmentation, person detection with YOLO, and pose estimation with MediaPipe. Each project demonstrates the application of various libraries in the field of computer vision.
 

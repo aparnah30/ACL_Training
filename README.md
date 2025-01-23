@@ -1,60 +1,45 @@
-# OpenCV
+# Deep Learning Projects Repository
 
+This repository contains various deep learning and computer vision projects organized into three main folders:
+
+- **DeepLearning**: Projects related to deep learning models and training.
+- **OpenCV**: Projects related to computer vision tasks.
+- **TransferLearning**: Projects that utilize transfer learning to fine-tune pre-trained models.
 
 ## Projects Overview
 
-### 1. **Oil Spill Segmentation using OpenCV**
+### 1. DeepLearning - **VGG PyTorch for Pneumonia Detection**
+This project uses the VGG model in PyTorch for detecting pneumonia from chest X-ray images.
 
-This project focuses on detecting oil spills in satellite images(SAR) by identifying dark patches using simple image processing techniques with OpenCV.
+- **Model**: VGG16
+- **Framework**: PyTorch
+- **Task**: Binary classification (Pneumonia vs. Normal)
 
-- **Key Features**:
-  - **Image Preprocessing**: Convert images to grayscale and resize them to a consistent size.
-  - **Dark Patch Detection**: Apply a threshold to identify dark patches in the image, which represent oil spills.
-  - **Visualization**: Display the original image, detected dark patches, and the corresponding mask side by side.
+### 2. OpenCV - **Oil Spill Detection on SAR Images**
+This project focuses on detecting oil spills in Synthetic Aperture Radar (SAR) images.
 
-- **Resources Used**:
-  - OpenCV
-  - Pillow (PIL)
-  - NumPy
-  - Matplotlib
+- **Task**: Image classification for oil spill detection.
+- **Framework**: OpenCV
 
----
+### 3. OpenCV - **Real-Time Object Detection using YOLO**
+This project demonstrates real-time object detection using the YOLO (You Only Look Once) model.
 
-### 2. **VGG Architecture for Image Classification (PyTorch)**
+- **Task**: Real-time object detection from video stream or webcam using YOLO.
+- **Framework**: OpenCV, YOLO
+- **Pre-trained Model**: YOLO weights and configuration files.
 
-This project implements a VGG-like architecture for image classification using PyTorch. The model is designed to take input images, apply convolutional layers, and output a class prediction.
+### 4. TransferLearning - **Research Paper Summarizer using T5 (Fine-Tuning)**
+This project fine-tunes a T5 base model to summarize research papers.
 
-- **Key Features**:
-  - **Custom VGG Architecture**: Implements VGG16-like architecture with convolutional layers, max pooling, and fully connected layers.
-  - **Forward Pass**: A standard forward pass that reshapes the output and applies fully connected layers to classify images.
-  - **Model Validation**: The model is validated with a sample input tensor to ensure the network works as expected.
-
-- **Resources Used**:
-  - PyTorch
-  - Torchvision
+- **Model**: T5 (Text-to-Text Transfer Transformer)
+- **Framework**: Hugging Face Transformers, PyTorch
+- **Task**: Summarization of research papers.
 
 ---
 
-### 3. **Fine-Tuning a T5 Model for Medical Summarization**
+## Clone the Repository
 
-This project fine-tunes a pre-trained T5 model from HuggingFace's `transformers` library to generate summaries for medical data. The T5 model is specifically fine-tuned on a medical dataset for summarization tasks.
-
-- **Key Features**:
-  - **Pre-trained T5 Model**: Leverages HuggingFace's `transformers` library to fine-tune the T5 model on a custom medical dataset.
-  - **Summarization**: Input medical texts are summarized, allowing healthcare professionals to quickly grasp key information.
-  - **HuggingFace Integration**: Easily integrates with the HuggingFace `transformers` library for fine-tuning and model management.
-
-- **Resources Used**:
-  - HuggingFace `transformers`
-  - PyTorch
-
----
-
-## Installation
-
-To run this project, clone the repository and install the necessary dependencies:
+To get started with any of the projects in this repository, first clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/repository-name.git
-cd repository-name
-pip install -r requirements.txt
+git clone https://github.com/aparnah30/ACL_Training.git
