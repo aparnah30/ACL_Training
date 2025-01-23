@@ -21,7 +21,7 @@ This project uses the following resources:
 
 ## Installation and Setup
 
-### 1. Clone the repository
+### Clone the repository
 Clone this repository to your local machine using the following command:
 ```bash
 git clone https://github.com/aparnah30/ACL_Training.git

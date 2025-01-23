@@ -23,6 +23,9 @@ This repository contains a collection of deep learning and computer vision proje
 - **Research Paper Summarizer using T5**  
   Fine-tuning a T5 model to summarize research papers using the Hugging Face Transformers library.
 
+### 3. **TeleHealth**
+- **Multilingual Summarizer**  
+The Multilingual Text Summarizer is a application(Streamlit) that generates concise summaries from user-provided text or uploaded PDF/TXT files using transformer models like MT5 for summarization and MarianMT for translation. It supports multiple languages and provides ROUGE scores to evaluate the quality of the generated summaries.
 ---
 
 ## Clone the Repository
